@@ -1,0 +1,38 @@
+.userList {
+  li {
+    list-style: none;
+    border: 1px solid black;
+    background: rgba(242, 241, 239, 0.2);
+    padding: 10px;
+    margin: 10px;
+    // transition: ease-out 0.3s;
+    width: 50vw;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    &:hover {
+      border: 0.1vmax solid orange;
+      box-shadow: 0px 0px 10px 4px rgba(255, 1, 1, 0.8);
+    }
+
+    &:hover:not(.inactive) {
+      cursor: pointer;
+      transform: scale(1.2);
+      box-shadow: 0px 0px 10px 4px rgba(81, 255, 1, 0.8);
+    }
+  }
+
+  .active {
+    color: black;
+  }
+
+  .inactive {
+    color: gray;
+  }
+
+  @media screen and (max-width: 750px) {
+    li {
+      width: 60vmin;
+    }
+  }
+}

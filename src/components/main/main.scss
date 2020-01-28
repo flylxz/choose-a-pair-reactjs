@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-left: 250px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  background: rgba(243, 241, 239, 0.3);
+
+  @media screen and (max-width: 750px) {
+    padding-top: 140px;
+    padding-bottom: 20px;
+  }
+}
