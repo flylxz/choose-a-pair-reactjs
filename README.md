@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-###https://choose-a-pair.firebaseapp.com/
+### Run app https://choose-a-pair.firebaseapp.com/
 
 Need to fix: 1. ageFilter;
              2. filter reset
